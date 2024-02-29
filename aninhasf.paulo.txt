@@ -1,0 +1,20 @@
+TABELAS
+
+Clientes:
+cpf pk, nome, endereço, contato 1, contato 2, id pk.
+
+Animais:
+id pk, nome, especie, raça, dt nascimento, id tutor(cpf).
+
+Consultas:
+id pk, id consulta pk, crmv pk, data, hora,
+motivo, diagnostico, plano de tratamento.
+
+Veterinarios:
+crmv pk, nome, especialização, id consulta pk.
+
+Procedimentos:
+id pr pk, procedimentos, custo, id consulta pk.
+
+Produtos: 
+produtos pk, id produto pk, descrição, preço, estoque.
